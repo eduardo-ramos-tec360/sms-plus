@@ -327,3 +327,16 @@ button[disabled] {
         padding-top: 2vh !important
     }
 }
+
+.brand-header {
+    border-bottom: none;
+}
+
+.brand-accent-bar {
+    height: 6px;
+    width: 100%;
+    background-color: #FBB829; /* amarillo Grupo Salinas, ajusta el hex si tienes el código exacto de marca */
+    position: sticky;
+    top: 0;
+    z-index: 3;
+}

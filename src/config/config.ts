@@ -64,7 +64,7 @@ export const config = {
             : 3,
     },
     maxInvalidTpAttempts: 1, // if typing pattern is not in the right position, ask again for new typing pattern
-    defaultLanguage: process.env.DEFAULT_LANGUAGE || 'en',
+    defaultLanguage: process.env.DEFAULT_LANGUAGE || 'es',
     hashSalt: process.env.HASH_SALT || '',
     logging: {
         // whether requests should be logged
